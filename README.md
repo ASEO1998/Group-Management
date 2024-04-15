@@ -1,1 +1,3 @@
 # Group-Management
+
+#This sql source file involves manage group members by assigning them to the appropraite groups.  The query will make two tables. One for a class roster, and the other where there are students who are already self assigned in their groups with some empty slots.  The goal is to fill up those empty slots with the remaing students who have not been assigned to a group yet.  It's the query's job to randomly assign those students to any avaliable positions of those groups in a very evenly matched pattern where all the groups can only have three members.  It also ensures to exlude student ids that are not in the class roster and delete any duplicates of students who are in more than one group.  
